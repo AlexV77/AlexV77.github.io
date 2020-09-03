@@ -1,0 +1,103 @@
+/* ======= GENERAL ======== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background:
+	linear-gradient(
+		limegreen,
+		transparent
+	),
+	linear-gradient(
+		90deg,
+		skyblue,
+		transparent
+	),
+	linear-gradient(
+		-90deg,
+		coral,
+		transparent
+	);
+background-blend-mode: screen;
+background-image: repeating-linear-gradient();
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container > img {
+  width: 20%;
+}
+.container > h1 {
+  font-family: 'lobster', impact;
+  font-weight: 800;
+  font-size: 2.5em;
+  margin-top: -1%;
+  color: #4caaa8;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  align-items: center;
+}
+/* ======= RUSSIANRIVER SECTION ======== */
+
+.russianriver-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.russianriver-images {
+  width: 30%;
+  background: #00daff;
+  padding: 60px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 2px #33A7F4;
+  -moz-box-shadow: 0px 0px 20px 2px #33A7F4;
+  -ms-box-shadow: 0px 0px 20px 2px #33A7F4;
+  -o-box-shadow: 0px 0px 20px 2px #33A7F4;
+  box-shadow: 0px 0px 20px 2px #33A7F4;
+  box-sizing: border-box;
+}
+.russianriver-images img {
+  width: 50%;
+  border-radius: 10px;
+  display: none;
+}
+.russianriver-images img:first-of-type {
+  width: 50%%;
+  border-radius: 10px;
+  display: block;
+}
+
+.russianriver-button {
+  align-self: center;
+    background-size: 100px 100px;
+    background-position: 0 0, 33px 33px, -33px -33px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px #01796f;
+
+}
+.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  border-radius: 6px;
+  content: transparent
+
+  display: flex;
+  flex-direction: column;
+}
+
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: bottom;
+    margin: 6px 0;

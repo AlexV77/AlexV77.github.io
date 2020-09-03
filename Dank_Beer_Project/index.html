@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Shopping cart  with HTML and JavaScript for Beer Weekly Project">
+<meta name="keywords" content="HTML,CSS,JavaScript,  storage, html5 local storage">
+<meta name="author" content="dcwebmakers.com">
+    <title>RUSSIAN RIVER</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="main.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- SCRIPTS -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <h3>Brewery Inventory Info:</h3>
+<div class="container">
+<form>
+<label for="todo">
+  <input type="text" id="todo" placeholder="Choose Four" />
+</label>
+<button type="submit">SUBMIT</button>
+<body>
+  <div class="container">
+
+    <!-- =========== RUSSIANRIVER TOP ============== -->
+    <img src="images/russianriver.png" alt="">
+    <div class="page-banner-video">
+<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="https://russianriverbrewing.com/wp-content/uploads/2019/09/beer-pour.mp4" type="video/mp4">
+      </video>
+    </div>
+      <img src="images/russianriver.png" alt="">
+    <!-- =========== RUSSIANRIVER CONTAINER ======== -->
+    <div class="russianriver-container">
+      <!-- previous button -->
+      <div class="russianriver-button previous">
+        <!-- from linearicons icon font -->
+        <span class="lnr lnr-chevron-left"></span>
+        </div>
+      <!-- images -->
+      <div class="russianriver-images">
+      <img src="images/consecration-bottle.png" alt="dark sour ale with black currants">
+        <img src="images/.damnation-bottle.png" alt="blond ale">
+        <img src="images/.pliny-the-elder-bottle.png" alt="original west coast DIPA">
+        <img src="images/.supplication-bottle.png" alt="Sour brown Ale">
+        <img src="images/.blind-pig-bottle.png" alt="ipa">
+        </div>
+      <!-- next button -->
+      <div class="russianriver-button next">
+        <!-- from linearicons icon font -->
+        <span class="lnr lnr-chevron-right"></span>
+</form>
+<!-- Title -->
+<div class="Shopping Bag">
+</div>
+
+<!-- Beer #1 -->
+<div class="item">
+<div class="buttons">
+<span class="delete-btn"></span>
+<span class="like-btn"></span>
+</div>
+
+<div class="image">
+<img src="consecration-bottle.png" alt="" />
+</div>
+
+<div class="description">
+<span>Dark Ale aged in Cabernet Sauvignon barrels from local wineries. Rich flavors of chocolate truffle, spice, tobacco, currants, and a bit of Cabernet. Very full-bodied, sip slowly!</span>
+<span>Alcohol by Volume: 10%</span>
+<span>Color: Reddish Brown</span>
+</div>
+
+<div class="quantity">
+<button class="plus-btn" type="button" name="button">
+  <img src="plus.svg" alt="" />
+</button>
+<input type="text" name="name" value="1">
+<button class="minus-btn" type="button" name="button">
+  <img src="minus.svg" alt="" />
+</button>
+</div>
+
+<div class="total-price">0</div>
+</div>
+<!-- Beer #2 -->
+<div class="item">
+<div class="buttons">
+<span class="delete-btn"></span>
+<span class="like-btn"></span>
+</div>
+
+<div class="image">
+<img src="damnation-bottle.png" alt=""/>
+</div>
+
+<div class="description">
+<span>Inspired pretty much by Duvel and other strong golden ales of Belgium. It is medium-bodied, has a fruity/banana bouquet, and a dry, spicy finish.</span>
+<span>Alcohol by Volume: 7.5%</span>
+<span>Color: Golden</span>
+</div>
+
+<div class="quantity">
+<button class="plus-btn" type="button" name="button">
+  <img src="plus.svg" alt="" />
+</button>
+<input type="text" name="name" value="1">
+<button class="minus-btn" type="button" name="button">
+  <img src="minus.svg" alt="" />
+</button>
+</div>
+
+<div class="total-price">$0</div>
+</div>
+
+<!-- Beer #3 -->
+<div class="item">
+<div class="buttons">
+<span class="delete-btn"></span>
+<span class="like-btn"></span>
+</div>
+
+<div class="image">
+<img src="bling-pig-bottle.png" alt="" />
+</div>
+
+<div class="description">
+<span>Full-bodied, very hoppy, with citrus, pine, fruity notes and a nice dry, bitter finish!</span>
+<span>Alcohol by Volume: 6.25%
+</span>
+<span>Color: Copper</span>
+</div>
+
+<div class="quantity">
+<button class="plus-btn" type="button" name="button">
+  <img src="plus.svg" alt="" />
+</button>
+<input type="text" name="name" value="1">
+<button class="minus-btn" type="button" name="button">
+  <img src="minus.svg" alt="" />
+</button>
+</div>
+<div class="total-price">$0</div>
+</div>
+<!-- Beer #4 -->
+<div class="item">
+<div class="buttons">
+  <span class="delete-btn"></span>
+  <span class="like-btn"></span>
+</div>
+
+<div class="image">
+  <img src="supplication-bottle.png" alt="" />
+</div>
+
+<div class="description">
+  <span>OUR BROWN ALE AGED IN PINOT NOIR BARRELS WITH SOUR CHERRIES</span>
+  <span>Alcohol by Volume: 7%
+</span>
+  <span>Color: Brown </span>
+</div>
+<!-- Beer #4 -->
+<div class="item">
+<div class="buttons">
+  <span class="delete-btn"></span>
+  <span class="like-btn"></span>
+</div>
+
+<div class="image">
+  <img src="pliny-the-elder-bottle.png" alt="" />
+</div>
+
+<div class="description">
+  <span>Pliny the Elder is brewed with Amarillo, Centennial, CTZ, and Simcoe hops. It is well-balanced with malt, hops, and alcohol, slightly bitter with a fresh hop aroma of floral, citrus, and pine. </span>
+  <span>Alcohol by Volume: 8%
+</span>
+  <span>Color:Amber </span>
+</div>
+
+<div class="quantity">
+  <button class="plus-btn" type="button" name="button">
+    <img src="plus.svg" alt="" />
+  </button>
+  <input type="text" name="name" value="1">
+  <button class="minus-btn" type="button" name="button">
+    <img src="minus.svg" alt="" />
+  </button>
+</div>
+<div class="total-price">$0</div>
+</div>
+<!-- Beer #3 -->
+<div class="item">
+  <div class="buttons">
+    <span class="delete-btn"></span>
+    <span class="like-btn"></span>
+  </div>
+
+  <div class="image">
+    <img src="bling-pig-bottle.png" alt="" />
+  </div>
+
+  <div class="description">
+    <span>Full-bodied, very hoppy, with citrus, pine, fruity notes and a nice dry, bitter finish!</span>
+    <span>Alcohol by Volume: 6.25%
+</span>
+    <span>Color: Copper</span>
+  </div>
+
+  <div class="quantity">
+    <button class="plus-btn" type="button" name="button">
+      <img src="plus.svg" alt="" />
+    </button>
+    <input type="text" name="name" value="1">
+    <button class="minus-btn" type="button" name="button">
+      <img src="minus.svg" alt="" />
+    </button>
+  </div>
+  <div class="total-price">$0</div>
+  </div>
+
+</div>
+</div>
+
+</body>
+</html>
