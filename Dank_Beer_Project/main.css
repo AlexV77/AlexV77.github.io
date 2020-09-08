@@ -26,16 +26,17 @@ background-image: repeating-linear-gradient();
   align-items: center;
 }
 .container > img {
-  width: 20%;
+  width: 35%;
 }
 .container > h1 {
   font-family: 'lobster', impact;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 2.5em;
   margin-top: -1%;
   color: #4caaa8;
   padding-bottom: 10px;
   letter-spacing: 2px;
+  flex-direction: column;
   align-items: center;
 }
 /* ======= RUSSIANRIVER SECTION ======== */
@@ -46,9 +47,9 @@ background-image: repeating-linear-gradient();
   justify-content: space-around;
 }
 .russianriver-images {
-  width: 30%;
+  width: 60%;
   background: #00daff;
-  padding: 60px;
+  padding: 25px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 20px 2px #33A7F4;
   -moz-box-shadow: 0px 0px 20px 2px #33A7F4;
@@ -58,20 +59,19 @@ background-image: repeating-linear-gradient();
   box-sizing: border-box;
 }
 .russianriver-images img {
-  width: 50%;
+  width: 70%;
   border-radius: 10px;
   display: none;
 }
 .russianriver-images img:first-of-type {
-  width: 50%%;
+  width: 70%%;
   border-radius: 10px;
   display: block;
 }
 
-.russianriver-button {
+.russianriver-carousal {
   align-self: center;
     background-size: 100px 100px;
-    background-position: 0 0, 33px 33px, -33px -33px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 1px 1px #01796f;

@@ -1,0 +1,82 @@
+/* add color variables */
+}
+.container {
+  width: 45%;
+  margin: auto;
+}
+.lists {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  text-align: center;
+  font-family: monospace;
+}
+button {
+  margin-bottom: 0.5em;
+  padding: .5em .5em;
+  border-radius: 0.25em;
+}
+input {
+  width: 300px;
+  padding: 1em;
+}
+.lists button:hover,
+button:hover {
+  background: rgba(0, 80, 175, 0.79);
+}
+.lists button:focus {
+  outline: 0;
+  animation: jello-horizontal 0.9s both;
+}
+.lists button {
+  background: inherit;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: rgba(242, 8, 8, 0.5);
+}
+@font-face {
+  font-family: Karma;
+  src: url(../fonts/Karma-SemiBold.ttf);
+}
+body {
+  top: 0;
+  left: 0;
+  background-image:url(../images/2020-ALL-STAR-LOGO.png);
+  background-size: ;
+  background-repeat: repeat;
+  text-transform: lowercase;
+}
+  h1 {
+    font-size: 5.0em;
+    margin: 0 0 0 0;
+    color: #e87e3a
+
+  }
+  .to-team-list,
+.trade {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  margin: 1em;
+}
+
+/* style list items, common styles */
+.to-team-item,
+.team-item {
+  margin: 0.5em;
+  border-radius: .5em;
+  animation: zoom-in 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  box-shadow: 2px 2px 4px gray;
+}
+
+
+.to-team-item {
+  background: rgb(121, 215, 116);
+}
+
+
+.team-item {
+  background: rgb(217, 111, 0)
+}
+
+}
